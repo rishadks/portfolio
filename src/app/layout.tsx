@@ -5,14 +5,9 @@ import "@/assets/css/style.css";
 import "@/assets/css/dark-mode.css";
 import "@/assets/css/responsive.css";
 
-import BackToTop from "@/components/backToTop";
-import Contact from "@/components/contact";
-import Footer from "@/components/footer";
-import Header from "@/components/header";
-import Preloader from "@/components/preloader";
 import type { Metadata } from "next";
 import { Manrope, Syne } from "next/font/google";
-import CopylLayout from "./copylLayout";
+import ClientLayout from "./ClientLayout";
 
 const syne = Syne({
   variable: "--font-syne",
@@ -34,20 +29,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en" className={`${syne.variable} ${manrope.variable}`}>
       <body>
-        <CopylLayout>
-          <Preloader />
-          <BackToTop />
-          <Header />
-          {children}
-          <Contact />
-          <Footer />
-        </CopylLayout>
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );
