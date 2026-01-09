@@ -1,8 +1,14 @@
-export const animationCreate = () => {
-  if (typeof window !== "undefined") {
-    import("wowjs").then((module) => {
-      const WOW: any = module.default;
-      new WOW.WOW({ live: false }).init();
-    });
+export const initWOW = async () => {
+  if (typeof window === "undefined") return;
+
+  const wowModule = await import("wowjs");
+
+  const WOWClass =
+    (wowModule as any).WOW ||
+    (wowModule as any).default ||
+    wowModule;
+
+  if (typeof WOWClass === "function") {
+    new WOWClass({ live: false }).init();
   }
 };

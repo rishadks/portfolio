@@ -1,6 +1,6 @@
 
 "use client";
-import { animationCreate } from "@/lib/utils";
+import { initWOW } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 import { ReactNode, useEffect } from "react";
 
@@ -19,7 +19,7 @@ const CopyLayout = ({ children }: { children: ReactNode }) => {
 
   useEffect(() => {
     if (pathName) {
-      animationCreate();
+      initWOW();
     }
   }, [pathName]);
 
@@ -27,7 +27,5 @@ const CopyLayout = ({ children }: { children: ReactNode }) => {
 };
 
 export default CopyLayout;
-
-
 
 
