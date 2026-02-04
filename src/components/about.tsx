@@ -39,28 +39,6 @@ const About = () => {
           <div className="col-md-6">
             <div >
               <ul className="list-disc">
-                <li>
-                  <h6 className=" wow fadeInUp" data-wow-delay=".4s">
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                  </h6>
-                </li>
                 <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Hardware: Laptops, desktops, printers, peripherals, imaging & deployment</h6></li>
                 <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Networking: TCP/IP, DNS, DHCP, VPN, Wi-Fi troubleshooting</h6></li>
                 <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Microsoft Technologies: Microsoft 365, Azure AD, Active Directory, Exchange</h6></li>
