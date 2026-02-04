@@ -41,82 +41,52 @@ const About = () => {
               <ul className="list-disc">
                 <li>
                   <h6 className=" wow fadeInUp" data-wow-delay=".4s">
-                    Operating Systems: Windows 10/11, Windows Server, macOS, Linux (basic)Endpoint Management: Intune, SCCM, JAMFTicketing Systems: ServiceNow, Jira, ZendeskSecurity: MFA, BitLocker, endpoint protection, access controlRemote Support: TeamViewer, AnyDesk, RDPTSM Frameworks: ITIL Incident, Problem, and Change Management
-                    Windows 10, Windows 11, Windows Server 2016/2019/2022
-                    macOS, Linux (Ubuntu, RHEL)
-                    Active Directory (AD), Group Policy (GPO)
-                    Azure Active Directory (Azure AD / Entra ID), Hybrid Identity
-                    Microsoft 365 Administration (Exchange Online, Teams, SharePoint, OneDrive)
-                    TCP/IP, DNS, DHCP, VPN, LAN/WAN Networking
-                    Wi-Fi Configuration, Firewall Troubleshooting
-                    Endpoint Management: Microsoft Intune, Endpoint Manage
-                    SCCM / MECM, JAMF
-                    Device Deployment, Patch Management, Software Distribution
-                    Hardware & Desktop Support (Laptops, Desktops, Servers)
-                    Printer & Peripheral Support
-                    Virtualization: VMware vSphere, ESXi, Hyper-V
-                    Backup & Recovery: Veeam, Azure Backup, Acronis
-                    Cybersecurity Fundamentals, Endpoint Security, MFA
-                    Encryption: BitLocker, FileVault
-                    PowerShell Scripting, Automation
-                    IT Service Management (ITIL)
-                    Ticketing Systems: ServiceNow, Jira, Freshservice, Zendesk
-                    Incident Management, Problem Management, Change Management
-                    Tier 2 / Tier 3 Technical Support
-                    Root Cause Analysis, Troubleshooting, Vendor Coordination
-                    Technical Skills & Systems (ATS Optimized)
-                    Network administration including Multiple Networks and VLANs
-                    Enterprise Firewall Management (AhnLab Firewall)
-                    SSL Certificate Management and SSL VPN Administration
-                    Cybersecurity for Endpoints and Servers
-                    Endpoint Protection: Bitdefender GravityZone Antivirus
-                    Email Security: Perception Point Email Security
-                    Microsoft Exchange Server Management (500+ users)
-                    Microsoft 365 Administration
-                    Active Directory User Management & Group Policy (GPO)
-                    VM-Enabled Server Management (Windows Server, Virtual Machines)
-                    Enterprise Wi-Fi Network Management
-                    NAS Storage Management and Backup Solutions
-                    IT Support Infrastructure Management
-                    Helpdesk & Ticketing Systems (GLPI, Fusion Inventory, Zendesk)
-                    IT Inventory and Asset Management
-                    License Management and Renewals for IT services
-                    Infrastructure & Systems Management
-                    Office AV System Management
-                    Office Printer and Peripheral Management
-                    PBX & IP Telephony Systems (Avaya IP Telephony)
-                    Office CCTV System Management
-                    Biometric & Access Control Systems
-                    Property Monitoring System – User Management
-                    NAS & File Server Administration
-                    Firewall, VPN, and Network Security Monitoring
-                    Business Applications & Platforms
-                    SAP ERP Support
-                    Point of Sale (POS) Systems
-                    Salesforce User Onboarding & New Joiner Account Setup
-                    Monday.com Task and Workflow Management
-                    Digital Business Card Solutions
-                    Email Signature Management (Exclaimer)
-                    Specialized Devices & Hardware
-                    Weighing Scales Support (Avery Berkel, Mettler Toledo)
-                    Handheld Terminals (Symbol, Motorola)
-                    Office AV & Communication Devices
-                    Security & Access Systems
-                    AhnLab TrusGuard VPN
-                    Email, Network, and Endpoint Security Management
-                    User Access Control and Compliance Support
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                   </h6>
                 </li>
                 <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Hardware: Laptops, desktops, printers, peripherals, imaging & deployment</h6></li>
                 <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Networking: TCP/IP, DNS, DHCP, VPN, Wi-Fi troubleshooting</h6></li>
                 <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Microsoft Technologies: Microsoft 365, Azure AD, Active Directory, Exchange</h6></li>
-                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s"></h6></li>
-                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s"></h6></li>
-                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s"></h6></li>
-                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s"></h6></li>
-                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s"></h6></li>
-                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s"></h6></li>
-                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s"></h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Operating Systems: Windows 10/11, Windows Server, macOS, Linux (basic)</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Endpoint Management: Intune, SCCM, JAMF</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Ticketing Systems: ServiceNow, Jira, Zendesk ,Monday.com</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Security: MFA, BitLocker, endpoint protection, access control</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Remote Support: TeamViewer, AnyDesk, RDPTSM Frameworks: ITIL Incident, Problem, and Change Management</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Windows 10, Windows 11, Windows Server 2016/2019/2022 macOS, Linux (Ubuntu, RHEL)</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Active Directory (AD), Group Policy (GPO) Azure Active Directory (Azure AD / Entra ID), Hybrid Identity</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Microsoft 365 Administration (Exchange Online, Teams, SharePoint, OneDrive)</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">TCP/IP, DNS, DHCP, VPN, LAN/WAN Networking,Wi-Fi Configuration, Firewall Troubleshooting,Endpoint Management: Microsoft Intune, Endpoint Manage,SCCM / MECM, JAMF</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Device Deployment, Patch Management, Software Distribution,Hardware & Desktop Support (Laptops, Desktops, Servers),Printer & Peripheral Support,Virtualization: VMware vSphere, ESXi, Hyper-V</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Backup & Recovery: Veeam, Azure Backup, Acronis,Cybersecurity Fundamentals, Endpoint Security, MFA,Encryption: BitLocker, FileVault,PowerShell Scripting, Automation</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">IT Service Management (ITIL),Ticketing Systems: ServiceNow, Jira, Freshservice, Zendesk,Incident Management, Problem Management, Change Management</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Tier 2 / Tier 3 Technical Support,Root Cause Analysis, Troubleshooting, Vendor Coordination,Technical Skills & Systems (ATS Optimized),Network administration including Multiple Networks and VLANs</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Enterprise Firewall Management (AhnLab Firewall),SSL Certificate Management and SSL VPN Administration,Cybersecurity for Endpoints and Servers</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Endpoint Protection: Bitdefender GravityZone Antivirus,Email Security: Perception Point Email Security</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Microsoft Exchange Server Management (500+ users),Microsoft 365 Administration,Active Directory User Management & Group Policy (GPO),VM-Enabled Server Management (Windows Server, Virtual Machines),Enterprise Wi-Fi Network Management</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">NAS Storage Management and Backup Solutions,IT Support Infrastructure Managemen,Helpdesk & Ticketing Systems (GLPI, Fusion Inventory, Zendesk),IT Inventory and Asset Management,License Management and Renewals for IT services,Infrastructure & Systems Management,Office AV System Management,Office Printer and Peripheral Management</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">PBX & IP Telephony Systems (Avaya IP Telephony),Office CCTV System Management,Biometric & Access Control System,Property Monitoring System – User Management,NAS & File Server Administration</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Firewall, VPN, and Network Security Monitoring,Business Applications & Platforms,SAP ERP Support,Point of Sale (POS) Systems,Salesforce User Onboarding & New Joiner Account Setup</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Monday.com Task and Workflow Management,Digital Business Card Solutions,Email Signature Management (Exclaimer),Specialized Devices & Hardware,Weighing Scales Support (Avery Berkel, Mettler Toledo)</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Handheld Terminals (Symbol, Motorola),Office AV & Communication Devices,Security & Access Systems,AhnLab TrusGuard VPN</h6></li>
+                <li><h6 className=" wow fadeInUp" data-wow-delay=".4s">Email, Network, and Endpoint Security Management,User Access Control and Compliance Support</h6></li>
+
               </ul>
             </div>
           </div>

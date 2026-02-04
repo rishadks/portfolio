@@ -26,7 +26,7 @@ const Portfolio = () => {
           <div className="section-title-wrapper row">
             <div className="col-xxl-5 col-12">
               <div className="section-title wow fadeInUp" data-wow-delay=".3s">
-                <h3>Latest Project</h3>
+                <h3>PROFESSIONAL EXPERENCE </h3>
                 <span />
               </div>
             </div>

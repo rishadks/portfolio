@@ -8,9 +8,10 @@ import Pricing from "@/components/pricing";
 import Services from "@/components/services/services";
 import Skills from "@/components/skills";
 import Testimonial from "@/components/testimonial";
-
+import ClientLayout from "./ClientLayout";
 const Home = () => {
   return (
+    <ClientLayout>
     <main>
       <Hero />
       <Skills />
@@ -23,6 +24,7 @@ const Home = () => {
       {/* <Brands /> */}
       {/* <BlogList /> */}
     </main>
+    </ClientLayout>
   );
 };
 

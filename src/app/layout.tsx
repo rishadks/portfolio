@@ -7,7 +7,6 @@ import "@/assets/css/responsive.css";
 
 import type { Metadata } from "next";
 import { Manrope, Syne } from "next/font/google";
-import ClientLayout from "./ClientLayout";
 
 const syne = Syne({
   variable: "--font-syne",
@@ -21,11 +20,7 @@ const manrope = Manrope({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: "Rishad - Senior IT Desktop Support Engineer",
-  description:
-    "Senior IT Desktop Support Engineer | Expert in ITSM, Cloud Infrastructure, Cybersecurity & Endpoint Management | AI & Automation-Driven IT Solutions | Digital Transformation & Enterprise IT Optimization Leader | Process Improvement & Operational Efficiency Specialist | Cross-Functional Team Collaboration & Strategic IT Leadership.",
-};
+export const metadata: Metadata = { title: "Rishad - Senior IT Desktop Support Engineer", description: "Senior IT Desktop Support Engineer | Expert in ITSM, Cloud Infrastructure, Cybersecurity & Endpoint Management | AI & Automation-Driven IT Solutions | Digital Transformation & Enterprise IT Optimization Leader | Process Improvement & Operational Efficiency Specialist | Cross-Functional Team Collaboration & Strategic IT Leadership.", };
 
 export default function RootLayout({
   children,
@@ -34,9 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${syne.variable} ${manrope.variable}`}>
-      <body>
-        <ClientLayout>{children}</ClientLayout>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

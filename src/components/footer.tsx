@@ -7,7 +7,7 @@ const Footer = () => {
             R<span className="txt-orange">i</span>shad
           </h4>
           <p className="copy-right mx-auto mx-md-0">
-            © 2025{" "}
+            © 2026{" "}
             <a
               href="https://themeforest.net/user/themes_mountain"
               target="_blank"
