@@ -1,3 +1,4 @@
+"use client";
 import About from "@/components/about";
 import BlogList from "@/components/blogs/blogList";
 import Brands from "@/components/brands";
