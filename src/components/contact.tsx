@@ -15,7 +15,7 @@ const Contact = () => {
               <span key={i} className="marquee-title">
                 {contacts.map((item, index) => (
                   <span key={index}>
-                    <span className="text-stroke-white">
+                    <span className="">
                       {item.email} _&nbsp;
                     </span>
                     {item.phone} _&nbsp;
