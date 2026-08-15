@@ -42,7 +42,7 @@ export const portfolioData: Portfolio[] = [
     {
         id: 2,
         category: ["Logistics & Retail"],
-        title: "IT Desktop Support Engineer",
+        title: "IT Support Engineer",
         client : "Lulu Group International ",
         timeframe: "May ,2016",
         description: "Lulu Retail is the largest full-line retailer across the GCC, leading by selling space, sales and number of stores. ",      
