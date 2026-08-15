@@ -8,7 +8,7 @@ import PortfolioDetailsPopUp from "./portfolioDetailsPopUp";
 const filters = [
   { label: "All Experience", filter: "all" },
   { label: "Unique Properties", filter: "Real Estate" },
-  { label: "MA Holdings", filter: "Logistics & Retail" },
+  { label: "Lulu Group International", filter: "Logistics & Retail" },
   { label: "Global Technologies", filter: "Software" },
 ];
 const Portfolio = () => {
